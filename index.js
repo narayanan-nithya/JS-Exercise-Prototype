@@ -117,10 +117,10 @@ console.log(personbaby.play());
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - Globally declared and 'this' refers to the window object
+  2. Implicit Binding - The object to the left of the dot is what 'this' refers to. 
+  3. New Binding - In New Binding ,'this' refers to the object created and returned by the constructor function. 
+  4. Explicit Binding - We refer to the object by defining the object explicitly by using call or apply function. 
 */
 
 
